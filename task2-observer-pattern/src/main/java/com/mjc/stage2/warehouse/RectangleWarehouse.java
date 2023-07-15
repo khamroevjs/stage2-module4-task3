@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class RectangleWarehouse {
     private static RectangleWarehouse instance;
-    private Map<Integer, RectangleValues> valueMap;
+    private final Map<Integer, RectangleValues> valueMap;
 
     private RectangleWarehouse() {
         this.valueMap = new HashMap<>();

@@ -8,7 +8,7 @@ import java.util.List;
 
 public class RectangleRepository {
     private static RectangleRepository instance;
-    private List<Rectangle> rectangles;
+    private final List<Rectangle> rectangles;
 
     private RectangleRepository() {
         rectangles = new ArrayList<>();
